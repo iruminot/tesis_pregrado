@@ -15,4 +15,4 @@ fi
 
 
 # abir el archivo pdf
-#open acmef_proyecto_1_Ruminot.pdf
+open memoria_iruminot.pdf

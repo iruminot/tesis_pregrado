@@ -3,3 +3,5 @@
 \contentsline {chapter}{List of figures}{6}{section*.4}%
 \contentsline {chapter}{Abstract}{8}{section*.6}%
 \contentsline {chapter}{Resumen}{9}{section*.7}%
+\contentsline {chapter}{\numberline {1}introducción}{11}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Método HDG.}{13}{chapter.2}%

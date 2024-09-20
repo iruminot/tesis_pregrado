@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.9.21)  19 SEP 2024 22:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.9.21)  19 SEP 2024 23:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -993,7 +993,8 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 ) (build/memoria_iruminot.aux
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
-)
+ (build/1_introduccion.aux)
+(build/2_metodo_hdg.aux))
 \openout1 = `memoria_iruminot.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
@@ -1086,7 +1087,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<img/esc.png, id=23, 367.3725pt x 451.6875pt>
+<img/esc.png, id=31, 367.3725pt x 451.6875pt>
 File: img/esc.png Graphic file (type png)
 <use img/esc.png>
 Package pdftex.def Info: img/esc.png  used on input line 13.
@@ -1187,8 +1188,11 @@ LaTeX Info: Redefining \% on input line 1.
 ] [9
 
 ]
-LaTeX Info: Redefining \. on input line 185.
-LaTeX Info: Redefining \% on input line 185.
+\openout2 = `1_introduccion.aux'.
+
+ (./1_introduccion.tex
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1200,19 +1204,55 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [10
 
+
+
+]
+Cap\'{\i }tulo 1.
+) [11]
+\openout2 = `2_metodo_hdg.aux'.
+
+ (./2_metodo_hdg.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[12
+
+
+
+
+]
+Cap\'{\i }tulo 2.
+) [13]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[14
+
+
 ] (build/memoria_iruminot.aux
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
-)
+ (build/1_introduccion.aux)
+(build/2_metodo_hdg.aux))
 Package rerunfilecheck Info: File `memoria_iruminot.out' has not changed.
-(rerunfilecheck)             Checksum: F9A23610C6C746C7BDA840683E9A1170;412.
+(rerunfilecheck)             Checksum: 1F35E3CFACB79F83590B8D93F983906C;622.
  ) 
 Here is how much of TeX's memory you used:
- 27837 strings out of 476025
- 517103 string characters out of 5779036
+ 27906 strings out of 476025
+ 519018 string characters out of 5779036
  1854388 words of memory out of 5000000
- 47775 multiletter control sequences out of 15000+600000
- 527506 words of font info for 67 fonts, out of 8000000 for 9000
+ 47822 multiletter control sequences out of 15000+600000
+ 529056 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  104i,11n,97p,470b,567s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/
@@ -1222,17 +1262,19 @@ _2/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></opt/homebrew/Cel
 lar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pf
 b></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/
 cm-super/sfbx1728.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist
-/fonts/type1/public/cm-super/sfbx2488.pfb></opt/homebrew/Cellar/texlive/2023031
-3_2/share/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></opt/homebrew/Ce
-llar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/cm-super/sfcc1440.p
+/fonts/type1/public/cm-super/sfbx2074.pfb></opt/homebrew/Cellar/texlive/2023031
+3_2/share/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></opt/homebrew/Ce
+llar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/cm-super/sfcc1200.p
 fb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public
-/cm-super/sfrm1095.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dis
-t/fonts/type1/public/cm-super/sfrm1440.pfb></opt/homebrew/Cellar/texlive/202303
-13_2/share/texmf-dist/fonts/type1/public/cm-super/sfsl1095.pfb>
-Output written on build/memoria_iruminot.pdf (11 pages, 178636 bytes).
+/cm-super/sfcc1440.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dis
+t/fonts/type1/public/cm-super/sfrm1095.pfb></opt/homebrew/Cellar/texlive/202303
+13_2/share/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></opt/homebrew/C
+ellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/cm-super/sfsl1095.
+pfb>
+Output written on build/memoria_iruminot.pdf (15 pages, 196148 bytes).
 PDF statistics:
- 148 PDF objects out of 1000 (max. 8388607)
- 108 compressed objects within 2 object streams
- 18 named destinations out of 1000 (max. 500000)
- 50 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 181 PDF objects out of 1000 (max. 8388607)
+ 135 compressed objects within 2 object streams
+ 24 named destinations out of 1000 (max. 500000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
