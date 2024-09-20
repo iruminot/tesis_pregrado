@@ -1,0 +1,377 @@
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts,mathrsfs}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{setspace}
+\usepackage{enumitem}
+\usepackage{comment}
+\usepackage[spanish, es-tabla, es-nodecimaldot]{babel}
+\usepackage{graphicx,color}
+\usepackage{epsfig} 
+\usepackage{hyperref}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{multirow}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[numbered,framed]{matlab-prettifier}
+\lstMakeShortInline"
+\lstset{
+  style              = Matlab-editor,
+  escapechar         = ",
+  mlshowsectionrules = true,
+}
+
+\usepackage[top=3cm,bottom=2cm,left=2cm,right=2cm]{geometry}
+%\usepackage[letterpaper, total={6in, 8in}]{geometry}
+%\pagestyle{headings}
+
+\setlength{\parindent}{0pt}
+
+\hypersetup{colorlinks, linkcolor=blue, citecolor=blue,urlcolor=blue,plainpages=false}
+
+\newtheorem{theorem}{Teorema}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\theoremstyle{definition}
+\newtheorem{problem}{Problema}
+
+
+\newtheorem{affir}{Afirmación}
+\newtheorem{defi}{Defición}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{assumption}[theorem]{Assumption}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{experiment}[theorem]{Experiment}
+\usepackage{todonotes}
+\usepackage{xcolor}
+\usepackage{cancel}
+\usepackage{empheq}
+\newcommand{\pvr}[1]{{\color{blue}{#1}}}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\usepackage{authblk}
+\newcommand{\bpsi}{\boldsymbol\psi}
+\newcommand{\mover}[1]{{\color{red}{#1}}}
+\newcommand{\keko}[1]{{\color{magenta}{#1}}}
+
+\newcommand{\liliana}[2]{{\color{violet}{#1}}}
+
+\newcommand{\Cnueve}{D_1}
+\newcommand{\Cdiez}{D_2}
+\newcommand{\compD}{\Omega_h}
+\newcommand{\vertiii}[1]{{\left\vert\kern-0.25ex\left\vert\kern-0.25ex\left\vert #1 
+    \right\vert\kern-0.25ex\right\vert\kern-0.25ex\right\vert}}
+
+\newcommand\revise[1]{\textcolor{blue}{#1}}
+%\newcommand\comment[1]{\textcolor{red}{#1}}
+\newcommand\commentM[1]{\textcolor{magenta}{#1}}
+
+\newcommand\red[1]{\textcolor{red}{#1}}
+
+
+\newcommand\Source{S(f,g)}
+\newcommand\Sourceone{S(f,g,1)}
+
+
+\definecolor{mygreen}{rgb}{0.0,0.5,0.0}
+
+
+\usepackage{mathrsfs}
+%% CODIGO MATLAB
+\usepackage{listings}
+\lstset{
+    language=Matlab,
+    basicstyle=\ttfamily\small,
+    keywordstyle=\color{blue},
+    commentstyle=\color{green!50!black},
+    stringstyle=\color{red},
+    showstringspaces=false,
+    tabsize=4,
+    breaklines=true,
+    breakatwhitespace=true
+}
+
+\newcommand{\triple}[1]{|\!|\!|{#1}|\!|\!|}
+%% Miscellaneous
+\renewcommand{\Re}{\operatorname{Re}}
+\renewcommand{\Im}{\operatorname{Im}}
+
+\newcommand{\eq}{:=}
+
+%% Differential operator
+\newcommand{\pd}[2]{\frac{\partial #1}{\partial #2}}
+
+\newcommand{\grad}{\boldsymbol \nabla}
+\renewcommand{\div}{\grad \cdot}
+\newcommand{\curl}{\grad \times}
+
+\newcommand{\ccurl}{\boldsymbol{\operatorname{curl}}}
+\newcommand{\ddiv}{\operatorname{div}}
+
+%% DG operators
+\newcommand{\jmp}[1]{\,[\![#1]\!]}
+\newcommand{\avg}[1]{\{\!\!\{#1\}\!\!\}}
+
+%% Bold uppercases
+\newcommand{\BA}{\boldsymbol A}
+\newcommand{\BB}{\boldsymbol B}
+\newcommand{\BC}{\boldsymbol C}
+\newcommand{\BD}{\boldsymbol D}
+\newcommand{\BE}{\boldsymbol E}
+\newcommand{\BF}{\boldsymbol F}
+\newcommand{\BG}{\boldsymbol G}
+\newcommand{\BH}{\boldsymbol H}
+\newcommand{\BI}{\boldsymbol I}
+\newcommand{\BJ}{\boldsymbol J}
+\newcommand{\BK}{\boldsymbol K}
+\newcommand{\BL}{\boldsymbol L}
+\newcommand{\BM}{\boldsymbol M}
+\newcommand{\BN}{\boldsymbol N}
+\newcommand{\BO}{\boldsymbol O}
+\newcommand{\BP}{\boldsymbol P}
+\newcommand{\BQ}{\boldsymbol Q}
+\newcommand{\BR}{\boldsymbol R}
+\newcommand{\BS}{\boldsymbol S}
+\newcommand{\BT}{\boldsymbol T}
+\newcommand{\BU}{\boldsymbol U}
+\newcommand{\BV}{\boldsymbol V}
+\newcommand{\BW}{\boldsymbol W}
+\newcommand{\BX}{\boldsymbol X}
+\newcommand{\BY}{\boldsymbol Y}
+\newcommand{\BZ}{\boldsymbol Z}
+
+%% Bold lowercases
+\newcommand{\ba}{\boldsymbol a}
+\newcommand{\bb}{\boldsymbol b}
+\newcommand{\bc}{\boldsymbol c}
+\newcommand{\bd}{\boldsymbol d}
+\newcommand{\be}{\boldsymbol e}
+\newcommand{\bff}{\boldsymbol f}
+\newcommand{\bg}{\boldsymbol g}
+\newcommand{\bh}{\boldsymbol h}
+\newcommand{\bi}{\boldsymbol i}
+\newcommand{\bj}{\boldsymbol j}
+\newcommand{\bk}{\boldsymbol k}
+\newcommand{\bl}{\boldsymbol l}
+%\newcommand{\bm}{\boldsymbol m}
+\newcommand{\bn}{\boldsymbol n}
+\newcommand{\bo}{\boldsymbol o}
+\newcommand{\bp}{\boldsymbol p}
+\newcommand{\bq}{\boldsymbol q}
+\newcommand{\br}{\boldsymbol r}
+\newcommand{\bs}{\boldsymbol s}
+\newcommand{\bt}{\boldsymbol t}
+\newcommand{\bu}{\boldsymbol u}
+\newcommand{\bv}{\boldsymbol v}
+\newcommand{\bw}{\boldsymbol w}
+\newcommand{\bx}{\boldsymbol x}
+\newcommand{\by}{\boldsymbol y}
+\newcommand{\bz}{\boldsymbol z}
+
+%% Curly uppercases
+\newcommand{\CA}{\mathcal A}
+\newcommand{\CB}{\mathcal B}
+\newcommand{\CC}{\mathcal C}
+\newcommand{\CD}{\mathcal D}
+\newcommand{\CE}{\mathcal E}
+\newcommand{\CF}{\mathcal F}
+\newcommand{\CG}{\mathcal G}
+\newcommand{\CH}{\mathcal H}
+\newcommand{\CI}{\mathcal I}
+\newcommand{\CJ}{\mathcal J}
+\newcommand{\CK}{\mathcal K}
+\newcommand{\CL}{\mathcal L}
+\newcommand{\CM}{\mathcal M}
+\newcommand{\CN}{\mathcal N}
+\newcommand{\CO}{\mathcal O}
+\newcommand{\CP}{\mathcal P}
+\newcommand{\CQ}{\mathcal Q}
+\newcommand{\CR}{\mathcal R}
+\newcommand{\CS}{\mathcal S}
+\newcommand{\CT}{\mathcal T}
+\newcommand{\CU}{\mathcal U}
+\newcommand{\CV}{\mathcal V}
+\newcommand{\CW}{\mathcal W}
+\newcommand{\CX}{\mathcal X}
+\newcommand{\CY}{\mathcal Y}
+\newcommand{\CZ}{\mathcal Z}
+
+%% Caligraphic uppercases
+\newcommand{\LA}{\mathscr A}
+\newcommand{\LB}{\mathscr B}
+\newcommand{\LC}{\mathscr C}
+\newcommand{\LD}{\mathscr D}
+\newcommand{\LE}{\mathscr E}
+\newcommand{\LF}{\mathscr F}
+\newcommand{\LG}{\mathscr G}
+\newcommand{\LH}{\mathscr H}
+\newcommand{\LI}{\mathscr I}
+\newcommand{\LJ}{\mathscr J}
+\newcommand{\LK}{\mathscr K}
+\newcommand{\LL}{\mathscr L}
+\newcommand{\LM}{\mathscr M}
+\newcommand{\LN}{\mathscr N}
+\newcommand{\LO}{\mathscr O}
+\newcommand{\LP}{\mathscr P}
+\newcommand{\LQ}{\mathscr Q}
+\newcommand{\LR}{\mathscr R}
+\newcommand{\LS}{\mathscr S}
+\newcommand{\LT}{\mathscr T}
+\newcommand{\LU}{\mathscr U}
+\newcommand{\LV}{\mathscr V}
+\newcommand{\LW}{\mathscr W}
+\newcommand{\LX}{\mathscr X}
+\newcommand{\LY}{\mathscr Y}
+\newcommand{\LZ}{\mathscr Z}
+
+%% Caligraphic uppercases
+\newcommand{\TA}{\textup A}
+\newcommand{\TB}{\textup B}
+\newcommand{\TC}{\textup C}
+\newcommand{\TD}{\textup D}
+\newcommand{\TE}{\textup E}
+\newcommand{\TF}{\textup F}
+\newcommand{\TG}{\textup G}
+%\newcommand{\TH}{\textup H}
+\newcommand{\TI}{\textup I}
+\newcommand{\TJ}{\textup J}
+\newcommand{\TK}{\textup K}
+\newcommand{\TL}{\textup L}
+\newcommand{\TM}{\textup M}
+\newcommand{\TN}{\textup N}
+\newcommand{\TO}{\textup O}
+\newcommand{\TP}{\textup P}
+\newcommand{\TQ}{\textup Q}
+\newcommand{\TR}{\textup R}
+\newcommand{\TS}{\textup S}
+\newcommand{\TT}{\textup T}
+\newcommand{\TU}{\textup U}
+\newcommand{\TV}{\textup V}
+\newcommand{\TW}{\textup W}
+\newcommand{\TX}{\textup X}
+\newcommand{\TY}{\textup Y}
+\newcommand{\TZ}{\textup Z}
+
+%% Bold curly uppercases
+\newcommand{\BCA}{\boldsymbol{\CA}}
+\newcommand{\BCB}{\boldsymbol{\CB}}
+\newcommand{\BCC}{\boldsymbol{\CC}}
+\newcommand{\BCD}{\boldsymbol{\CD}}
+\newcommand{\BCE}{\boldsymbol{\CE}}
+\newcommand{\BCF}{\boldsymbol{\CF}}
+\newcommand{\BCG}{\boldsymbol{\CG}}
+\newcommand{\BCH}{\boldsymbol{\CH}}
+\newcommand{\BCI}{\boldsymbol{\CI}}
+\newcommand{\BCJ}{\boldsymbol{\CJ}}
+\newcommand{\BCK}{\boldsymbol{\CK}}
+\newcommand{\BCL}{\boldsymbol{\CL}}
+\newcommand{\BCM}{\boldsymbol{\CM}}
+\newcommand{\BCN}{\boldsymbol{\CN}}
+\newcommand{\BCO}{\boldsymbol{\CO}}
+\newcommand{\BCP}{\boldsymbol{\CP}}
+\newcommand{\BCQ}{\boldsymbol{\CQ}}
+\newcommand{\BCR}{\boldsymbol{\CR}}
+\newcommand{\BCS}{\boldsymbol{\CS}}
+\newcommand{\BCT}{\boldsymbol{\CT}}
+\newcommand{\BCU}{\boldsymbol{\CU}}
+\newcommand{\BCV}{\boldsymbol{\CV}}
+\newcommand{\BCW}{\boldsymbol{\CW}}
+\newcommand{\BCX}{\boldsymbol{\CX}}
+\newcommand{\BCY}{\boldsymbol{\CY}}
+\newcommand{\BCZ}{\boldsymbol{\CZ}}
+
+%% Bold caligraphic uppercases
+\newcommand{\BLA}{\pmb{\LA}}
+\newcommand{\BLB}{\pmb{\LB}}
+\newcommand{\BLC}{\pmb{\LC}}
+\newcommand{\BLD}{\pmb{\LD}}
+\newcommand{\BLE}{\pmb{\LE}}
+\newcommand{\BLF}{\pmb{\LF}}
+\newcommand{\BLG}{\pmb{\LG}}
+\newcommand{\BLH}{\pmb{\LH}}
+\newcommand{\BLI}{\pmb{\LI}}
+\newcommand{\BLJ}{\pmb{\LJ}}
+\newcommand{\BLK}{\pmb{\LK}}
+\newcommand{\BLL}{\pmb{\LL}}
+\newcommand{\BLM}{\pmb{\LM}}
+\newcommand{\BLN}{\pmb{\LN}}
+\newcommand{\BLO}{\pmb{\LO}}
+\newcommand{\BLP}{\pmb{\LP}}
+\newcommand{\BLQ}{\pmb{\LQ}}
+\newcommand{\BLR}{\pmb{\LR}}
+\newcommand{\BLS}{\pmb{\LS}}
+\newcommand{\BLT}{\pmb{\LT}}
+\newcommand{\BLU}{\pmb{\LU}}
+\newcommand{\BLV}{\pmb{\LV}}
+\newcommand{\BLW}{\pmb{\LW}}
+\newcommand{\BLX}{\pmb{\LX}}
+\newcommand{\BLY}{\pmb{\LY}}
+\newcommand{\BLZ}{\pmb{\LZ}}
+
+%% Bold text-up
+\newcommand{\BTA}{\pmb{\TA}}
+\newcommand{\BTB}{\pmb{\TB}}
+\newcommand{\BTC}{\pmb{\TC}}
+\newcommand{\BTD}{\pmb{\TD}}
+\newcommand{\BTE}{\pmb{\TE}}
+\newcommand{\BTF}{\pmb{\TF}}
+\newcommand{\BTG}{\pmb{\TG}}
+%\newcommand{\BTH}{\pmb{\TH}}
+\newcommand{\BTI}{\pmb{\TI}}
+\newcommand{\BTJ}{\pmb{\TJ}}
+\newcommand{\BTK}{\pmb{\TK}}
+\newcommand{\BTL}{\pmb{\TL}}
+\newcommand{\BTM}{\pmb{\TM}}
+\newcommand{\BTN}{\pmb{\TN}}
+\newcommand{\BTO}{\pmb{\TO}}
+\newcommand{\BTP}{\pmb{\TP}}
+\newcommand{\BTQ}{\pmb{\TQ}}
+\newcommand{\BTR}{\pmb{\TR}}
+\newcommand{\BTS}{\pmb{\TS}}
+\newcommand{\BTT}{\pmb{\TT}}
+\newcommand{\BTU}{\pmb{\TU}}
+\newcommand{\BTV}{\pmb{\TV}}
+\newcommand{\BTW}{\pmb{\TW}}
+\newcommand{\BTX}{\pmb{\TX}}
+\newcommand{\BTY}{\pmb{\TY}}
+\newcommand{\BTZ}{\pmb{\TZ}}
+
+
+\def\ds{\displaystyle}
+\def\l{\left(}
+\def\r{\right)}
+\def\labs{\left|}
+\def\rabs{\right|}
+\providecommand{\norm}[1]{\left\| #1 \right\|}
+\providecommand{\abs}[1]{\labs #1 \rabs}
+\providecommand{\pa}[1]{\l #1 \r}
+\providecommand{\cor}[1]{\left[ #1 \right]}
+\providecommand{\lla}[1]{\left\{ #1 \right\}}
+\providecommand{\inner}[2]{\l #1,#2 \r}
+\providecommand{\pdual}[2]{\left\langle #1,#2 \right\rangle}
+
+% conjuntos de numeros
+\def\HH{{\mathcal H}}
+\def\R{\mathbb{R}}
+\def\LL{\mathcal{L}}
+\def\KK{\mathbb{K}}
+\def\K{\mathcal{K}}
+\def\C{\mathbb{C}}
+\def\G{\mathcal{G}}
+\def\F{\mathcal{F}}
+\def\P{{\mathcal P}}
+\def\I{\mathbb{I}}
+\def\N{\mathbb{N}}
+\def\Q{\mathbb{Q}}
+\def\Z{\mathbb{Z}}
+
+\renewcommand{\theenumi}{(\alph{enumi})}
+
+\newcommand{\balpha}{\boldsymbol{\alpha}}
+\newcommand{\bbeta}{\boldsymbol{\beta}}

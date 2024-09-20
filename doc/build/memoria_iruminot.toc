@@ -1,0 +1,5 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{Acknowledgements}{3}{section*.1}%
+\contentsline {chapter}{List of figures}{6}{section*.4}%
+\contentsline {chapter}{Abstract}{8}{section*.6}%
+\contentsline {chapter}{Resumen}{9}{section*.7}%

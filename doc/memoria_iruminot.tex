@@ -1,0 +1,185 @@
+\documentclass[11pt,letterpaper,hidelinks]{book}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{ragged2e}
+\input{general_commands}
+
+\fancyhead[R]{\thepage}
+\fancyfoot[C]{}
+
+\begin{document}
+\begin{titlepage}
+\begin{center}
+\includegraphics[scale=0.3]{img/esc.png} 
+\end{center}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+\center % Center everything on the page
+%----------------------------------------------------------------------------------------
+%	HEADING SECTIONS
+%----------------------------------------------------------------------------------------
+\textsc{\Large Universidad de Concepci\'on}\\ % Name of your university/college
+\textsc{\large Facultad de Ciencias F\'isicas y Matem\'aticas}\\
+\textsc{\large Departamento de Ingenier\'ia Matem\'atica}\\[2cm]
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+\setstretch{1.5}
+\begin{center}
+\hrule
+\vspace{0.5cm}
+{\bf \Large A QUASI-PERIODIC HDG METHOD FOR THE HELMHOLTZ EQUATION IN HETEROGENEOUS DOMAINS}
+\vspace{0.5cm}
+\hrule
+\end{center}
+%----------------------------------------------------------------------------------------
+%	AUTHOR SECTION
+%----------------------------------------------------------------------------------------
+\vspace{1cm}
+\textsc{\large Autor}\\[0.3cm]
+\Large{\bf Ignacio Sebastian Ruminot Aburto}\\
+\vspace{2cm}
+\setstretch{1}
+Tesis presentada a la Facultad de Ciencias F\'isicas y Matem\'aticas de la
+Universidad de Concepci\'on para optar al t\'itulo profesional de
+Ingeniero Civil Matem\'atico\\[0.5cm]
+\setstretch{1.5}
+{Profesores Gu\'ia: Dr.~Manuel E.~Solano Dr.~Patrick~Vega.}\\[0.5cm]
+\setstretch{1}
+{\bf Septiembre de 2024,}
+{\bf Concepci\'on, Chile.}
+\end{titlepage}
+
+\setstretch{1.5}
+\clearpage
+\setcounter{page}{1}
+\thispagestyle{plain}
+\hspace{1mm}
+\vfill
+\centering
+{\copyright\hspace{1mm} 2024 Ignacio Sebastian Ruminot Aburto}\\[0.6cm]
+\setstretch{1}
+{Se autoriza la reproducci\'on total o parcial, con fines}
+{acad\'emicos, por cualquier medio o procedimiento,}
+{incluyendo la cita bibliogr\'afica del documento.}
+
+\clearpage
+\thispagestyle{plain}
+\setstretch{1.5}
+\center
+{\bf \Large A QUASI-PERIODIC HDG METHOD FOR THE HELMHOLTZ EQUATION IN HETEROGENEOUS DOMAINS}
+\vspace{1cm}
+\justifying
+\vspace{2.5cm}
+{\bf \large COMISI\'ON EVALUADORA}
+\vspace{1cm}
+{Dr.~Manuel E.~Solano [Profesor gu\'ia]}
+{CI$^2$MA y Departamento de Ingenier\'ia Matem\'atica, Universidad de Concepción, Chile.} 
+\vspace{0.05cm}
+{Dr.~Patrick Vega [Profesor gu\'ia]}
+{Departamento de Matemática y Ciencia de la Computación, Universidad de Santiago de Chile, Chile.}
+\vspace{0.2cm}
+%{Dr.~Rommel Bustinza}
+%{CI$^2$MA y Departamento de Ingenier\'ia Matem\'atica, Universidad de Concepción, Chile.}
+\vspace{0.2cm}
+%{Dr.~Paulo Zúñiga}
+%{Department of Applied Mathematics, University of Waterloo, Canadá.}
+\vspace{0.2cm}
+{\it\bf FECHA DE DEFENSA: .}
+
+
+\clearpage
+\thispagestyle{plain}
+\setstretch{1}
+\center{\bf \LARGE Acknowledgements}
+\phantomsection
+
+\addcontentsline{toc}{chapter}{Acknowledgements}
+\vspace{1cm}
+\justifying
+AQUÍ VAN LOS AGRADECIMIENTOS
+
+
+% \clearpage
+% \thispagestyle{plain}
+% \justifying
+% \begin{redarea}
+% {\it Ackwnowledgements 2
+% \vfill
+% \begin{center}
+% \includegraphics[scale=0.7]{images/logo_dim.png}
+% \hspace{3cm}
+% \includegraphics[scale=0.7]{images/logo_ci2ma.jpg} 
+
+% \end{center}
+% }
+% \end{redarea}
+
+
+\clearpage
+\pagestyle{fancy}
+\phantomsection
+\tableofcontents
+
+%  \clearpage
+%  \addcontentsline{toc}{chapter}{List of figures} 
+% \listoffigures
+
+%  \clearpage
+%  \addcontentsline{toc}{chapter}{List of tables} 
+% \listoftables
+
+\clearpage
+\phantomsection
+%\addcontentsline{toc}{chapter}{List of listings}
+%\lstlistoflistings
+
+\addcontentsline{toc}{chapter}{List of figures} 
+\listoffigures
+
+
+\clearpage
+
+%**********************************************************************
+%**********************************************************************
+\thispagestyle{plain}
+\center{\bf \LARGE Abstract}\\
+\phantomsection
+\addcontentsline{toc}{chapter}{Abstract}
+\vspace{1cm}
+\justifying
+
+\clearpage
+
+%**********************************************************************
+%**********************************************************************
+\thispagestyle{plain}
+\center{\bf \LARGE Resumen}\\
+\phantomsection
+\addcontentsline{toc}{chapter}{Resumen}
+\vspace{1cm}
+\justifying
+
+
+%**********************************************************
+%**********************************************************
+\clearpage
+\pagestyle{fancy}
+\setstretch{1.2}
+\justifying
+%\include{fuente/introduccion}
+
+%\include{fuente/metodo_hdg}
+
+%\include{fuente/analisis}
+
+%\include{fuente/experimentos}
+
+%\include{fuente/conclusion}
+
+
+%\bibliography{fuente/bibliografia}
+%\bibliographystyle{siam} 
+
+hola
+
+\end{document}
