@@ -5,3 +5,4 @@
 \contentsline {chapter}{Resumen}{9}{section*.7}%
 \contentsline {chapter}{\numberline {1}introducción}{11}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Método HDG.}{13}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Implementación Computacional.}{15}{chapter.3}%

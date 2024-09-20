@@ -1105,6 +1105,9 @@ INPUT build/1_introduccion.aux
 INPUT build/2_metodo_hdg.aux
 INPUT build/2_metodo_hdg.aux
 INPUT build/2_metodo_hdg.aux
+INPUT build/4_implementacion.aux
+INPUT build/4_implementacion.aux
+INPUT build/4_implementacion.aux
 OUTPUT build/memoria_iruminot.aux
 INPUT /opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -1222,6 +1225,16 @@ INPUT ./2_metodo_hdg.tex
 INPUT 2_metodo_hdg.tex
 INPUT ./2_metodo_hdg.tex
 INPUT 2_metodo_hdg.tex
+INPUT ./4_implementacion.tex
+INPUT ./4_implementacion.tex
+INPUT ./4_implementacion.tex
+OUTPUT build/4_implementacion.aux
+INPUT ./4_implementacion.tex
+INPUT ./4_implementacion.tex
+INPUT ./4_implementacion.tex
+INPUT 4_implementacion.tex
+INPUT ./4_implementacion.tex
+INPUT 4_implementacion.tex
 INPUT build/memoria_iruminot.aux
 INPUT build/1_introduccion.aux
 INPUT build/1_introduccion.aux
@@ -1229,6 +1242,9 @@ INPUT build/1_introduccion.aux
 INPUT build/2_metodo_hdg.aux
 INPUT build/2_metodo_hdg.aux
 INPUT build/2_metodo_hdg.aux
+INPUT build/4_implementacion.aux
+INPUT build/4_implementacion.aux
+INPUT build/4_implementacion.aux
 INPUT build/memoria_iruminot.out
 INPUT build/memoria_iruminot.out
 INPUT /opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
