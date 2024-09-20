@@ -1,0 +1,4 @@
+*.sh
+build/
+bibliografia.bib
+general_commands.tex
